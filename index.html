@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>متجر Chic & Carry</title>
+  <style>
+    body { font-family: Arial; background: #f9f9f9; margin: 0; padding: 0; direction: rtl; }
+    header { background: #222; color: #fff; padding: 15px; text-align: center; }
+    h1 { margin: 0; }
+    .container { display: flex; flex-wrap: wrap; justify-content: center; margin: 20px; }
+    .product {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 250px;
+      margin: 15px;
+      text-align: center;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .product:hover { transform: scale(1.05); }
+    .product img { width: 100%; border-radius: 10px 10px 0 0; }
+    .product h2 { font-size: 18px; margin: 10px 0; }
+    .product p { color: #555; font-size: 14px; }
+    .price { font-size: 16px; font-weight: bold; color: #007BFF; }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      background: #25D366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .btn:hover { background: #1ebf58; }
+    footer {
+      text-align: center;
+      background: #222;
+      color: #fff;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>👜 متجر Chic & Carry</h1>
+    <p>أفضل الحقائب والمحافظ بخدمة توصيل سريعة 🚚</p>
+  </header>
+
+  <div class="container">
+    <!-- منتج 1 -->
+    <div class="product">
+      <img src="bag1.jpg" alt="حقيبة جلد">
+      <h2>حقيبة جلد أنيقة</h2>
+      <p class="price">3500 DZD</p>
+      <a class="btn" href="https://wa.me/213555123456?text=أريد%20شراء%20حقيبة%20جلد%20أنيقة">اطلب عبر WhatsApp</a>
+    </div>
+
+    <!-- منتج 2 -->
+    <div class="product">
+      <img src="bag2.jpg" alt="محفظة نسائية">
+      <h2>محفظة نسائية</h2>
+      <p class="price">1500 DZD</p>
+      <a class="btn" href="https://wa.me/213664610121?text=أريد%20شراء%20محفظة%20نسائية">اطلب عبر WhatsApp</a>
+    </div>
+
+    <!-- منتج 3 -->
+    <div class="product">
+      <img src="bag3.jpg" alt="حقيبة رجالية">
+      <h2>حقيبة رجالية صغيرة</h2>
+      <p class="price">2500 DZD</p>
+      <a class="btn" href="https://wa.me/213555123456?text=أريد%20شراء%20حقيبة%20رجالية%20صغيرة">اطلب عبر WhatsApp</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 متجر Chic & Carry | جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
